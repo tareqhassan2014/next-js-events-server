@@ -60,6 +60,10 @@ const EventSchema = new Schema(
             type: String,
             default: 'no-image.jpg',
         },
+        isFeatured: {
+            type: Boolean,
+            default: false,
+        },
     },
     {
         timestamps: true,
